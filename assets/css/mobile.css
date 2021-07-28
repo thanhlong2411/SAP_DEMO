@@ -507,6 +507,7 @@
     }
     .our_process{
         display: block;
+        justify-content: normal;
     }
     .our_process_img{
         padding-left: 90px;

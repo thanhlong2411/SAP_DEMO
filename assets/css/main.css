@@ -185,6 +185,7 @@ body{
     display: flex;
     padding: 0 15px 0 15px ;
     text-align: center;
+    justify-content: center;
 }
 .what_you_get_layout h2 {
     display: block;
@@ -276,6 +277,7 @@ body{
 /*Our Process*/
 .our_process{
     display: flex;
+    justify-content: center;
 }
 .our_process_img{
     margin: 80px 0 80px 0;

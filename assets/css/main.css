@@ -258,6 +258,7 @@ body{
     word-wrap: break-word;
     width: 320px;
     line-height: 22px;
+    font-family: 'Montserrat';
 }
 
 .as_seen_on_button button{
@@ -290,10 +291,12 @@ body{
 .our_process_title h1{
     color: black;
     font-size: 40px;
+    font-family: 'Montserrat';
 }
 .our_process_text{
     color: rgb(110, 110, 110);
     font-size: 13px;
+    font-family: 'Montserrat';
 }
 .our_process_text_p2{
     padding-top: 25px;
@@ -337,10 +340,12 @@ body{
 .parent_approved_conten_title h1 {
     color: black;
     font-size: 40px;
+    font-family: 'Montserrat';
 }
 .parent_approved_conten_title p {
     color: rgb(110, 110, 110);
     font-size: 15px;
+    font-family: 'Montserrat';
 }
 
 .parent_approved_conten_text {
@@ -363,13 +368,15 @@ body{
     padding-bottom: 10px
 }
 .parent_approved_video_geo_text {
-    padding-left: 25px;
+    padding-left: 20px;
 }
 .parent_approved_video_geo_text p{
     color: rgb(110, 110, 110);
-    font-size: 14px;
+    font-size: 13px;
     word-wrap: break-word;
-    width: 250px;
+    width: 290px;
+    font-family: 'Montserrat';
+
 }
 .geo__button {
     padding-right: 70px;
@@ -408,6 +415,7 @@ geo__button_bored:hover{
     font-size: 15px;
     line-height: 20px;
     margin-top: -15px;
+    font-family: 'Montserrat';
 }
 
 .still_have_questions_title{
@@ -416,7 +424,7 @@ geo__button_bored:hover{
 }
 
 .still_have_questions_button_text{
-    padding-left: 160px;
+    text-align: -webkit-center;
 }
 .still_have_questions_button_text img{
     width: 970px;
@@ -425,22 +433,25 @@ geo__button_bored:hover{
 }
 .still_have_questions_button_text h3{
     color: black;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;  
     padding-top: 10px;
     width: 925px;
-    padding-left: 25px;
+    text-align: left;
+    font-family: 'Montserrat';
+
 }
 .still_have_questions_button_text h3 i{
     font-size: 17px; 
     float: right;
 }
 .still_have_questions_button_text p{
-    width: 650px;
-    padding-left: 25px;
+    width: 915px;
     font-size: 17px;
     color: rgb(110, 110, 110);
     line-height: 25px;
+    font-family: "Montserrat";
+    text-align: left;
 }
 
 .still_have_questions_button_text_button{
@@ -453,6 +464,7 @@ geo__button_bored:hover{
     background-color: #eaf3e4;
     text-align: left;
     padding-left: 25px;
+    font-family: 'Montserrat';
 }
 .still_have_questions_button_text_button i{
     float: right;
@@ -464,7 +476,7 @@ geo__button_bored:hover{
     
 }
 .still_have_questions_button_space img{
-    width: 1170px;
+    width: 100%;
     height: 5px;
     padding: 0 55px 0 55px;
 }

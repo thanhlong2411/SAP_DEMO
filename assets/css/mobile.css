@@ -1,3 +1,5 @@
+
+
 @media only screen  and (max-width:1220px){
     
     .header__navbar_menu{
@@ -45,6 +47,9 @@
     .as_seen_on_button button{
         height: 42px;
         width: 142px;
+    }
+    .still_have_questions_button {
+        margin: none;
     }
     .parent_approved {
         height: 1530px;
@@ -129,7 +134,7 @@
         height: 45px;
     }
     .still_have_questions_button_text h3 {
-        font-size: 20px;
+        font-size: 17px;
         width: 705px;
     }
     .still_have_questions_button_text img {
@@ -137,6 +142,9 @@
     }
     .still_have_questions_button_text {
         padding-left: 110px;
+    }
+    .still_have_questions_button_text p {
+        width: 690px;
     }
     .enter__button_1 {
         font-size: 14px;
@@ -665,8 +673,8 @@
     .parent_approved_conten_title p {
         color: rgb(110, 110, 110);
         font-size: 12px;
-        width: 368px;
-        margin-left: -101px;
+        width: 283px;
+         margin-left: -60px;
     }
     .still_have_questions h1{
         

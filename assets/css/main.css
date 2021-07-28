@@ -218,7 +218,6 @@ body{
     height: 4px;
     width: 41%;
     margin-top: 18px;
-    padding: 0 25px 0 25px;
 }
 .as_seen_on_img {
     justify-content: center;
@@ -228,7 +227,7 @@ body{
     padding-bottom: 20px;    
 }
 .as_seen_on_img img {
-    padding: 40px 60px 50px 60px;
+    padding: 40px 60px 50px 50px;
 }
 .as_seen_on_banner{
     position: relative;
@@ -399,6 +398,9 @@ geo__button_bored:hover{
 
 /*test*/
 
+.still{
+    max-width: 100%;
+}
 .still_have_questions{
     padding-top: 30px;
     text-align: center;
@@ -473,12 +475,12 @@ geo__button_bored:hover{
 }
 .still_have_questions_button_space{
     padding-top: 60px;
+    text-align: center;
     
 }
 .still_have_questions_button_space img{
-    width: 100%;
+    width: 90%;
     height: 5px;
-    padding: 0 55px 0 55px;
 }
 .mail_box {
     width: 100%;

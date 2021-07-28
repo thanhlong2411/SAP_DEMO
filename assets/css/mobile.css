@@ -512,7 +512,7 @@
         padding-left: 90px;
     }
     .our_process_img img {
-        width: 330px;
+        width: 300px;
     }
     .our_process_title {
         margin-left: 90px;
@@ -526,7 +526,7 @@
     }
     .our_process_text{
         font-size: 11.5px;
-        width: 320px;
+        width: 280px;
     }
     .our_process_button button{
         border: 1px solid #10592e;
@@ -629,6 +629,9 @@
     .as_seen_on_img{
         padding-left: 75px;
     }
+    .as_seen_on_img img {
+        padding: 40px 60px 50px 40px;
+    }
     .as_seen_on_banner_title {
         top: 20px;
         padding-left: 30px;
@@ -658,7 +661,7 @@
         margin-top: 35px;
     }
     .our_process_img img {
-        width: 300px;
+        width: 280px;
     }
     .our_process_title {
         margin-left: 40px;

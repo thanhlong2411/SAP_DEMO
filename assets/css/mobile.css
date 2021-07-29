@@ -1,7 +1,10 @@
 
 
 @media only screen  and (max-width:1220px){
-    
+    .grid__row {
+        width: auto;
+        
+    }
     .header__navbar_menu{
         display: none;
     }

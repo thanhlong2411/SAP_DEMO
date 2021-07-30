@@ -495,6 +495,8 @@ geo__button_bored:hover{
     font-family: 'Montserrat';
     background-color: white;
     transition: 0.4s;
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
 .accordion {
     background-color: #eee;

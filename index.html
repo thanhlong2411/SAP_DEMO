@@ -20,10 +20,10 @@
                             <i class="fas fa-phone-alt"></i>
                             877-867-5753</li>
                     </ul>
-                    <!--<ul class="header__navbar-list1">
+                    <ul class="header__navbar-list1">
                         <li class="header__navbar__close">
                             <i class="fas fa-times"></i>
-                         </li>-->
+                         </li>
                 </ul>
                 </nav>
             </div>
@@ -36,7 +36,7 @@
                                     <li class="header__navbar-logo1">
                                         <img src="assets/img/logo.png" alt="" >
                                     </li>
-                                </ul>
+                                </ul>   
                             </nav>
                         </div>
                         <div class="">
@@ -256,38 +256,67 @@
                 </div>
                 <div class="still_have_questions_button">
                     <div class="still_have_questions_button_text">
-                        <button class="still_have_questions_button_text_button">What are Stem Cells? <i class="fas fa-minus"></i></button>
+                        <button class="still_have_questions_button_text_button">What are Stem Cells? </button>
                         <p>Stem cells have the ability to change into different cell types. They also have the ability to aid in the healing of damaged tissue. These are just two of the reasons why scientists and doctors are so excited about the growing role of stem cells to treat disease, injury, and the deterioration of tissue due to aging.</p>
-
+                        <img src="assets/img/Shape1.png" alt="">
                     </div>
                     <div class="still_have_questions_button_text">
-                        <h3>What are Stem Cells? <i class="fa fa-plus"aria-hidden="true"></i></h3> 
+                        <button class="still_have_questions_button_text_button">What are Stem Cells? </button>
+                        <p>Stem cells have the ability to change into different cell types. They also have the ability to aid in the healing of damaged tissue. These are just two of the reasons why scientists and doctors are so excited about the growing role of stem cells to treat disease, injury, and the deterioration of tissue due to aging.</p>
+
                         <img src="assets/img/Shape1.png" alt="">
 
                     </div>
                     
                     <div class="still_have_questions_button_text">
-                        <h3>What Diseases are being Studied?<i class="fa fa-plus"aria-hidden="true"></i></h3>
+                        <button class="still_have_questions_button_text_button">What Diseases are being Studied? </button>
+                        <p>Stem cells have the ability to change into different cell types. They also have the ability to aid in the healing of damaged tissue. These are just two of the reasons why scientists and doctors are so excited about the growing role of stem cells to treat disease, injury, and the deterioration of tissue due to aging.</p>
+
                         <img src="assets/img/Shape1.png" alt="">
 
                     </div>
                     <div class="still_have_questions_button_text">
-                        <h3>What do families choose to store their dental stem cells?<i class="fa fa-plus"aria-hidden="true"></i></h3>
+                        <button class="still_have_questions_button_text_button">What do families choose to store their dental stem cells? </button>
+                        <p>Stem cells have the ability to change into different cell types. They also have the ability to aid in the healing of damaged tissue. These are just two of the reasons why scientists and doctors are so excited about the growing role of stem cells to treat disease, injury, and the deterioration of tissue due to aging.</p>
+
                         <img src="assets/img/Shape1.png" alt="">
 
                     </div>
                     <div class="still_have_questions_button_text">
-                        <h3>Should I bank cells for more than one tooth?<i class="fa fa-plus"aria-hidden="true"></i></h3>
+                        <button class="still_have_questions_button_text_button">Should I bank cells for more than one tooth?</button>
+                        <p>Stem cells have the ability to change into different cell types. They also have the ability to aid in the healing of damaged tissue. These are just two of the reasons why scientists and doctors are so excited about the growing role of stem cells to treat disease, injury, and the deterioration of tissue due to aging.</p>
+
                         <img src="assets/img/Shape1.png" alt="">
                     </div>
                     <div class="still_have_questions_button_text">
-                        <h3>Should I bank cells from more than one child?<i class="fa fa-plus"aria-hidden="true"></i></h3>
+                        <button class="still_have_questions_button_text_button">Should I bank cells from more than one child? </button>
+                        <p>Stem cells have the ability to change into different cell types. They also have the ability to aid in the healing of damaged tissue. These are just two of the reasons why scientists and doctors are so excited about the growing role of stem cells to treat disease, injury, and the deterioration of tissue due to aging.</p>
+
                     </div>
                 </div>
                 <div class="still_have_questions_button_space">
                     <img src="assets/img/Shape1.png" alt="">
                 </div>
             </div>
+            <!--Still Have Questions 3W?-->
+                <script>
+                    var acc = document.getElementsByClassName("still_have_questions_button_text_button");
+                    var i;
+                    
+                    for (i = 0; i < acc.length; i++) {
+                      acc[i].addEventListener("click", function() {
+                        this.classList.toggle("active");
+                        var panel = this.nextElementSibling;
+                        if (panel.style.display === "block") {
+                          panel.style.display = "none";
+                        } else {
+                          panel.style.display = "block";
+                        }
+                      });
+                    }
+                    </script>
+                    
+                    
             <div class="mail_box">
                 <ul class="mail_box_header">
                     <div class="mail_box_img">

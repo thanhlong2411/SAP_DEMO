@@ -15,7 +15,6 @@ body{
     background-image: linear-gradient(0,#10592e,#10592e);
     background-size: cover;
     width: 100%;
-    position: fixed;
     z-index: 1;
 }
 .header__navbar{
@@ -25,10 +24,7 @@ body{
 }
 .header__navbar-list{
     padding: 15px 0;
-   /* margin-top: auto;
-    margin-right: 400px;
-    margin-bottom: auto;
-    margin-left: 500px;*/
+   
     margin: auto;
     list-style: none;
 }
@@ -39,8 +35,9 @@ body{
 }
 .header__navbar-list1{
     margin-top: 16px;
-    margin-right: 40px;
+    margin-right: 20px;
     list-style: none;
+    padding-left: 0;
 }
 .header__navbar__close{
     color: aliceblue;
@@ -51,10 +48,7 @@ body{
 }
 .grid {
     z-index: 1;
-    position: fixed;
-    width: 100%;
-    max-width: 100%; 
-    margin-top: 44px;
+   
     background-color: white;
     box-shadow: 3px 3px 3px rgb(212, 211, 211);
 }
@@ -64,7 +58,6 @@ body{
     margin-left: auto;
     margin-right: auto;
     height: 85px;
-    padding: 0 48px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -112,14 +105,14 @@ body{
 /*Banner*/
 .Banner{
     position: relative;
-    padding-top: 129px;
+    /*padding-top: 129px;*/
 }
 .Banner_image img{
     width: 100%;
 }
 .Banner_title {
     position: absolute;
-    top: 250px;
+    top: 130px;
     padding: 0 4%;
 }
 .Banner_title2{
@@ -163,6 +156,8 @@ body{
     color: var(--white-color);
     font-size: 14px;
     font-weight: 500;
+    top:100px;
+    
 }
 .Banner-button i {
     color: #10592e;
@@ -230,7 +225,6 @@ body{
     justify-content: center;
     display: flex;
     height: 150px;
-    /*padding-left: 45px;*/
     padding-bottom: 20px;    
 }
 .as_seen_on_img img {
@@ -244,7 +238,7 @@ body{
 }
 .as_seen_on_banner_title{
     position:absolute;
-    top: 100px;
+    top: 75px;
     padding-left: 154px;
 }
 .as_seen_on_banner_title_1{
@@ -282,7 +276,7 @@ body{
 }
 /*Our Process*/
 .our_process{
-    width: 72rem;
+    width: 88rem;
     margin-left: auto;
     margin-right: auto;
     max-width: 100%;
@@ -297,7 +291,7 @@ body{
 .our_process_title{
     margin-top:130px ;
     margin-left: 130px;
-    margin-right: 180px;
+    margin-right: 152px;
     line-height: 20px;
 }
 .our_process_title h1{
@@ -540,6 +534,7 @@ geo__button_bored:hover{
     max-width: 100%;
     display: flex;
     margin-bottom: 20px;
+    margin-top: 20px;
     width: 75rem;
     margin-left: auto;
     margin-right: auto;
@@ -689,13 +684,12 @@ li.footer__header {
 .header__navbar_menu_mobile{
     position: fixed;
     float: right;
-    top: 44px;
+    top: 0;
     bottom: 0;
     right: 0;
-    width: 310px;
+    width: 335px;
     max-width: 100%;
-    background-color:aliceblue;
-    border-radius: 5px;
+    background-color:#ffffff;
     
     transform: translateX(100%);
     opacity: 0;
@@ -737,7 +731,28 @@ li.footer__header {
         opacity: 1;
     }
 }
-
+.dropdown_menu {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 200px;
+    z-index: 1;
+    padding-top: 31px;
+  }
+  
+  .dropdown_menu a {
+    color:  rgba(68, 63, 63, 0.884);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: small;
+  }
+  .dropdown_menu a:hover {
+      background-color: #f1f1f1
+}
+.header__navbar-item:hover .dropdown_menu {
+    display: block;
+  }
   
   
  

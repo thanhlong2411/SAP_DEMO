@@ -8,6 +8,14 @@
         <link rel="stylesheet" href="./assets/css/mobile.css">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;1,100;1,300;1,900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            <script>
+            $(document).ready(function(){
+              $("input").click(function(){
+                $(".header_nav").remove();
+              });
+            });
+            </script>
     </head>
     <body>
         
@@ -16,17 +24,19 @@
             <div class = "header_nav">
                 <nav class="header__navbar">
                     <ul class="header__navbar-list">
-                        <li class="header__navbar-text">Speak with a Client Educator today!&nbsp&nbsp
+                        <li class="header__navbar-text">Speak with a Client Educator today!&nbsp
                             <i class="fas fa-phone-alt"></i>
                             877-867-5753</li>
                     </ul>
                     <ul class="header__navbar-list1">
-                        <li class="header__navbar__close">
+                        <input type="checkbox"  name="" class="nav_check" id="header__navbar__close">
+                        <label for="header__navbar__close">
                             <i class="fas fa-times"></i>
-                         </li>
-                </ul>
+                        </label>    
+                     </ul>
                 </nav>
             </div>
+           
             <header class="header">
                 <div class="grid">
                     <div class="grid__row">
@@ -42,7 +52,16 @@
                         <div class="">
                             <nav class="header__navbar_menu">
                             <ul class="header__navbar-list1">                             
-                                <li class="header__navbar-item"><a href="" style="color: black; text-decoration:none">Dental Stem Cells 101</a></li>
+                                <li class="header__navbar-item"><a href="" style="color: black; text-decoration:none">Dental Stem Cells 101</a>
+                                    <div class="dropdown_menu">
+                                        <a href="#">Why Bank Stem Cells</a>
+                                        <a href="#">Why Teeth</a>
+                                        <a href="#">Dentist Recommended</a>
+                                        <a href="#">Dentist Recent News</a>
+                                        <a href="#">Dentist FAQs</a>
+                                    </div>
+                                </li>
+                                    
                                 <li class="header__navbar-item"><a href="" style="color: black; text-decoration:none">Our Process</a></li>
                                 <li class="header__navbar-item"><a href="" style="color: black; text-decoration:none">Pricing</a></li>
                                 <li class="header__navbar-item"><a href="" style="color: black; text-decoration:none">Stories</a></li>
@@ -101,13 +120,14 @@
                     the pulp of teeth as an investment into their  future health. 
                     </div>
                    </div>
-                </div>
-                <div class="Banner_title2">
+                   <div class="Banner_title2">
                     <button class="Banner-button">
                         REQUEST INFO KIT 
                         &nbsp<i class="fa fa-arrow-right"aria-hidden="true"></i>
                     </button>
+                    </div>
                 </div>
+                
             </div>
             <!--What You Get-->
             <div class="Content">
@@ -315,6 +335,7 @@
                       });
                     }
                     </script>
+                   
                     
                     
             <div class="mail_box">
@@ -407,5 +428,6 @@
                 </div>
             </div>
         </div>
+        
     </body>
 </html>

@@ -716,6 +716,9 @@ li.footer__header {
 .nav_check{
     display: none;
 }
+.nav_check1{
+    display: none;
+}
 .nav_check:checked ~ .nav__overlay{
     display: block;
 }
